@@ -1,0 +1,120 @@
+
+.btn_test{
+  background-color: #009206; /* اللون الأخضر */
+  border: none; /* إزالة الحدود */
+  color: white; /* لون النص */
+  padding: 15px 32px; /* الحشو الداخلي */
+  text-align: center; /* محاذاة النص للوسط */
+  text-decoration: none; /* إزالة الخط السفلي */
+  display: inline-block; /* عرض الزر ككتلة داخلية */
+  font-size: 22px; /* حجم الخط */
+  margin: 4px 2px; /* هامش خارجي */
+  cursor: pointer; /* تغيير شكل المؤشر عند المرور */
+  border-radius: 8px; /* جعل الزوايا مستديرة */
+  transition: background-color 0.3s; /* إضافة تأثير عند التغيير */
+}
+
+
+
+.event{
+    color: #fff;
+    background-color:#818181;
+    font-size: 30px;
+    margin:10px;
+    padding: 10px;   
+    text-align: center;
+    border: 9px solid #49a733 ;
+    border-radius:23px;
+    
+    
+}
+
+.btn{
+  background-color: #009206; /* اللون الأخضر */
+  border: none; /* إزالة الحدود */
+  color: white; /* لون النص */
+  padding: 15px 32px; /* الحشو الداخلي */
+  text-align: center; /* محاذاة النص للوسط */
+  text-decoration: none; /* إزالة الخط السفلي */
+  display: inline-block; /* عرض الزر ككتلة داخلية */
+  font-size: 22px; /* حجم الخط */
+  margin: 4px 2px; /* هامش خارجي */
+  cursor: pointer; /* تغيير شكل المؤشر عند المرور */
+  border-radius: 8px; /* جعل الزوايا مستديرة */
+  transition: background-color 0.3s; /* إضافة تأثير عند التغيير */
+}
+
+
+
+.btn:hover{
+  background-color: #30ff00; /* لون مختلف عند التمرير */
+}
+.btn_Rest{
+  background-color: #009206; /* اللون الأخضر */
+  border: none; /* إزالة الحدود */
+  color: white; /* لون النص */
+  padding: 15px 32px; /* الحشو الداخلي */
+  text-align: center; /* محاذاة النص للوسط */
+  text-decoration: none; /* إزالة الخط السفلي */
+  display: inline-block; /* عرض الزر ككتلة داخلية */
+  font-size: 22px; /* حجم الخط */
+  margin: 4px 2px; /* هامش خارجي */
+  cursor: pointer; /* تغيير شكل المؤشر عند المرور */
+  border-radius: 8px; /* جعل الزوايا مستديرة */
+  transition: background-color 0.3s; /* إضافة تأثير عند التغيير */
+}
+
+.btn_Rest:hover{
+  background-color: #ff0000; /* لون مختلف عند التمرير */
+}
+.title {
+    color: green;
+    
+}
+.head{
+    color:blue;
+    background-color:aquamarine; 
+    margin: 10px;
+}
+
+#Div_For_Test_Code{
+    color: #fff;
+    background-color:#404040;
+    font-size: 30px;
+    margin:10px;
+    padding: 10px;   
+    text-align: center;
+    border: 5px solid red;
+    border-radius:25px;
+}
+
+#Contaner{
+    color: #fff;
+    background-color:#404040;
+    font-size: 30px;
+    margin:10px;
+    padding: 10px;   
+    text-align: center;
+    border: 9px solid red;
+    border-radius:23px;
+
+}
+#ttt
+{
+    color: #fff;
+    background-color:#404040;
+    font-size: 30px;
+    margin:10px;
+    padding: 10px;   
+    border: 7px solid #ffcf00;
+    border-radius:25px;
+}
+ hr {
+            color: #000;
+            border: 5px solid #6e622f;
+            width: auto;
+            margin: 10px;
+}
+
+
+

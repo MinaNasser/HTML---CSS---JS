@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(#150035,#3d0083);
+    font-family: system-ui;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+header{
+    position: fixed;
+    width: 95%;
+    z-index: 100;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+
+}
+header .logo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+header ul li {
+    margin: 30px;
+
+}
+header ul li a {
+    padding:  6px 15px;
+
+    
+}
+header ul li a:hover,.active{
+    background: #fff;
+    color: #150035;
+    border-radius: 20px; 
+}
+
+.main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background:linear-gradient(to top,#150035,transparent); */
+    overflow: hidden;
+}
+.main ::after{
+   content:'' ;
+   position:absolute;
+   bottom: 0;
+   height: 100px;
+   width: 100%;
+
+}
+
+.main img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; 
+}
+#moon{
+    mix-blend-mode: screen; 
+    transform: translateY(40px);
+}
+.mina{
+    color: #fff;
+    font-size: 25px ;
+    text-transform:uppercase ;
+    transform: translateY(-140px);
+}
+.contant{
+    color: #fff;
+    padding: 30px ;
+}
+.contant h2 {
+    margin: 20px;
+    font-size: 30px;
+}
+.contant p {
+    margin: 20px;
+   
+}

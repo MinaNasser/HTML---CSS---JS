@@ -1,0 +1,21 @@
+* {
+    margin: 2px
+}
+
+.photos img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #aaa;
+    border-radius: 10px;
+    display: inline;
+}
+.photos img:hover{
+    border: 4px solid #080;
+}
+
+.main img{
+    width: 845px;
+    height: 845px;
+    border: 4px solid #aaa;
+    border-radius: 10px;
+}

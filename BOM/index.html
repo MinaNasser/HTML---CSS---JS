@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>BOM</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <button id="btnScroll">
+            ↑
+        </button>
+         <label for="textInput">Enter text:</label>
+        <input type="text" id="txt" name="textInput" placeholder="Type something...">
+        <br/><br/><br/><br/>
+        <div class="container">
+            
+            <div onclick="setColor(this.id)"  id="red" class="box">Div 1</div>
+            <div onclick="setColor(this.id)" id="blue" class="box">Div 2</div>
+            <div onclick="setColor(this.id)" id="green" class="box">Div 3</div>
+            <div onclick="setColor(this.id)" id="black" class="box">Div 4</div>
+        </div>
+        
+    </body>
+</html>

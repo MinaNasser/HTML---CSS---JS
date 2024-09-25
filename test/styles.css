@@ -1,0 +1,44 @@
+.Container{
+    color: #fff;
+    background-color:#5d5d5d;
+    font-size: 30px;
+    margin:10px;
+    padding: 10px;   
+    text-align: center; 
+    border: 9px solid red;
+    border-radius:23px;
+    height: 100px;
+    
+
+}
+
+
+ hr {
+            color: #000;
+            border: 5px solid #6e622f;
+            width: auto;
+            margin: 10px;
+            border-radius:10px;
+}
+
+
+.btn{
+  background-color: #009206; /* اللون الأخضر */
+  border: none; /* إزالة الحدود */
+  color: white; /* لون النص */
+  padding: 15px 32px; /* الحشو الداخلي */
+  text-align: center; /* محاذاة النص للوسط */
+  text-decoration: none; /* إزالة الخط السفلي */
+  display: inline-block; /* عرض الزر ككتلة داخلية */
+  font-size: 22px; /* حجم الخط */
+  margin: 4px 2px; /* هامش خارجي */
+  cursor: pointer; /* تغيير شكل المؤشر عند المرور */
+  border-radius: 8px; /* جعل الزوايا مستديرة */
+  transition: background-color 0.3s; /* إضافة تأثير عند التغيير */
+}
+
+
+
+.btn:hover{
+  background-color: #30ff00; /* لون مختلف عند التمرير */
+}
